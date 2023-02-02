@@ -4,137 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12c1d601-455b-4283-a598-2a180c586ae5" name="Changes" comment="feat: add webpack-dev-server configuration">
-      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Counter.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Counter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/global.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+    <list default="true" id="12c1d601-455b-4283-a598-2a180c586ae5" name="Changes" comment="feat: update buildLoaders buildPlugins &amp; add css modules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildLoaders.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildLoaders.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildPlugins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildPlugins.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildWebpackConfig.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/json-parse-better-errors/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/json-parse-better-errors/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/json-parse-better-errors/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/json-parse-better-errors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/json-parse-better-errors/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/hot/dev-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/hot/dev-server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/hot/poll.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/hot/poll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/hot/signal.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/hot/signal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/BannerPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/BannerPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Chunk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ChunkGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ChunkGraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ChunkGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ChunkGroup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/CleanPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/CleanPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Compilation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Compilation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Compiler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ConstPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ConstPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ContextModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ContextModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ContextModuleFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ContextModuleFactory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/DelegatedModuleFactoryPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/DelegatedModuleFactoryPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Dependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Dependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/DllReferencePlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/DllReferencePlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/EntryOptionPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/EntryOptionPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ErrorHelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ErrorHelpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/EvalSourceMapDevToolPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/EvalSourceMapDevToolPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ExportsInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ExportsInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ExternalModuleFactoryPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ExternalModuleFactoryPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/FileSystemInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/FileSystemInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Generator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/LoaderOptionsPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/LoaderOptionsPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Module.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ModuleFilenameHelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ModuleFilenameHelpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/NodeStuffPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/NodeStuffPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/NormalModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/NormalModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/NormalModuleFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/NormalModuleFactory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ProgressPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ProgressPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/RuntimePlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/RuntimePlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/RuntimeTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/RuntimeTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Template.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/WebpackOptionsApply.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/WebpackOptionsApply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/asset/AssetGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/asset/AssetGenerator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/asset/AssetParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/asset/AssetParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/asset/AssetSourceGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/asset/AssetSourceGenerator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/asset/AssetSourceParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/asset/AssetSourceParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/buildChunkGraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/buildChunkGraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/cache/PackFileCacheStrategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/cache/PackFileCacheStrategy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/cache/ResolverCachePlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/cache/ResolverCachePlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/config/browserslistTargetHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/config/browserslistTargetHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/config/defaults.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/config/defaults.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/config/normalization.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/config/normalization.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/container/ModuleFederationPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/container/ModuleFederationPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/container/RemoteRuntimeModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/container/RemoteRuntimeModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/css/CssLoadingRuntimeModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/css/CssLoadingRuntimeModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/css/CssParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/css/CssParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsExportsParserPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsExportsParserPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsImportsParserPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsImportsParserPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsRequireContextDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsRequireContextDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsRequireDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsRequireDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ContextDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ContextDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ContextDependencyHelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ContextDependencyHelpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ContextElementDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ContextElementDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyAcceptImportDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyAcceptImportDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyExportInitFragment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyExportInitFragment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyImportDependencyParserPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyImportDependencyParserPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyImportSpecifierDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyImportSpecifierDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyModulesPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyModulesPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ImportContextDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ImportContextDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ImportParserPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ImportParserPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/JsonExportsDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/JsonExportsDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/LoaderDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/LoaderDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/LoaderImportDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/LoaderImportDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/LoaderPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/LoaderPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ModuleDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ModuleDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ProvidedDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/ProvidedDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/RequireContextDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/RequireContextDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/RequireResolveContextDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/RequireResolveContextDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/RequireResolveDependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/RequireResolveDependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/URLPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/URLPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/WorkerPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/WorkerPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/esm/ModuleChunkLoadingPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/esm/ModuleChunkLoadingPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/esm/ModuleChunkLoadingRuntimeModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/esm/ModuleChunkLoadingRuntimeModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/hmr/HotModuleReplacement.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/hmr/HotModuleReplacement.runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/hmr/JavascriptHotModuleReplacement.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/hmr/JavascriptHotModuleReplacement.runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ids/HashedModuleIdsPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ids/HashedModuleIdsPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ids/IdHelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ids/IdHelpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/javascript/BasicEvaluatedExpression.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/javascript/BasicEvaluatedExpression.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/javascript/JavascriptParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/javascript/JavascriptParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/json/JsonData.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/json/JsonData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/json/JsonParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/json/JsonParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/library/UmdLibraryPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/library/UmdLibraryPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/node/ReadFileChunkLoadingRuntimeModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/node/ReadFileChunkLoadingRuntimeModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/node/RequireChunkLoadingRuntimeModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/node/RequireChunkLoadingRuntimeModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ConcatenatedModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ConcatenatedModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ModuleConcatenationPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ModuleConcatenationPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/runtime/AsyncModuleRuntimeModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/runtime/AsyncModuleRuntimeModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/runtime/LoadScriptRuntimeModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/runtime/LoadScriptRuntimeModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/schemes/HttpUriPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/schemes/HttpUriPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/sharing/ProvideSharedPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/sharing/ProvideSharedPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/stats/DefaultStatsFactoryPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/stats/DefaultStatsFactoryPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/stats/DefaultStatsPrinterPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/stats/DefaultStatsPrinterPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/util/internalSerializables.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/util/internalSerializables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/wasm-sync/WebAssemblyParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/wasm-sync/WebAssemblyParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/web/JsonpChunkLoadingRuntimeModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/web/JsonpChunkLoadingRuntimeModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/lib/webworker/ImportScriptsChunkLoadingRuntimeModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/webworker/ImportScriptsChunkLoadingRuntimeModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/module.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/module.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/schemas/WebpackOptions.check.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/schemas/WebpackOptions.check.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/schemas/WebpackOptions.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/schemas/WebpackOptions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/schemas/plugins/BannerPlugin.check.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/schemas/plugins/BannerPlugin.check.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/schemas/plugins/BannerPlugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/schemas/plugins/BannerPlugin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/schemas/plugins/schemes/HttpUriPlugin.check.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/schemas/plugins/schemes/HttpUriPlugin.check.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/schemas/plugins/schemes/HttpUriPlugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/schemas/plugins/schemes/HttpUriPlugin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/types.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="14387" />
+    <option name="totalTimeSeconds" value="15199" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -177,7 +51,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;/Users/meowmeow/.nvm/versions/node/v17.4.0/bin/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/meowmeow/development/production-development/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -226,7 +100,9 @@
       <workItem from="1675017235804" duration="6206000" />
       <workItem from="1675086308631" duration="2521000" />
       <workItem from="1675095004453" duration="9370000" />
-      <workItem from="1675187980226" duration="2527000" />
+      <workItem from="1675187980226" duration="3374000" />
+      <workItem from="1675269137244" duration="945000" />
+      <workItem from="1675350418161" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add webpack-dev-server configuration">
       <created>1675101625114</created>
@@ -235,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675101625114</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: update buildLoaders buildPlugins &amp; add css modules">
+      <created>1675190755738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675190755738</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add webpack-dev-server configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add webpack-dev-server configuration" />
+    <MESSAGE value="feat: update buildLoaders buildPlugins &amp; add css modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update buildLoaders buildPlugins &amp; add css modules" />
   </component>
 </project>
