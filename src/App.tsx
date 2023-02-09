@@ -1,15 +1,16 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
+import {useTheme} from "./theme/useTheme";
+import {classNames} from "./helpers/classNames/classNames";
 
 import Counter from "./components/Counter";
 import './styles/index.scss';
-import {useTheme} from "./theme/useTheme";
 
 const App = () => {
     const {theme, toggleTheme} = useTheme();
 
     return (
-        <div className={`app ${theme}`}>
+        <div className={classNames('app', {}, [theme])}>
             <button onClick={toggleTheme}>TOGGLE</button>
             <Routes>
                 <Route path={'/'} element={<Counter/>}/>
