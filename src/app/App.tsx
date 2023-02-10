@@ -1,9 +1,8 @@
 import React from 'react';
-import {Routes, Route} from 'react-router-dom';
-import {useTheme} from "./theme/useTheme";
-import {classNames} from "./helpers/classNames/classNames";
 
-import Counter from "./components/Counter";
+import {useTheme} from "app/providers/ThemeProvider";
+import {classNames} from "shared/lib/classNames/classNames";
+
 import './styles/index.scss';
 
 const App = () => {
@@ -12,9 +11,6 @@ const App = () => {
     return (
         <div className={classNames('app', {}, [theme])}>
             <button onClick={toggleTheme}>TOGGLE</button>
-            <Routes>
-                <Route path={'/'} element={<Counter/>}/>
-            </Routes>
         </div>
     );
 };
