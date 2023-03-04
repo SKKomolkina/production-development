@@ -6,6 +6,7 @@ import {classNames} from "shared/lib/classNames/classNames";
 import './styles/index.scss';
 
 import {AppRouter} from "app/providers/router";
+import {Navbar} from "widgets/Navbar";
 
 const App = () => {
     const {theme, toggleTheme} = useTheme();
@@ -13,7 +14,7 @@ const App = () => {
     return (
         <div className={classNames('app', {}, [theme])}>
             <button onClick={toggleTheme}>TOGGLE</button>
-
+            <Navbar/>
             <AppRouter/>
         </div>
     );
